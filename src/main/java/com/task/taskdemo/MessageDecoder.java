@@ -9,10 +9,10 @@ public class MessageDecoder {
         
         Scanner scanner =  new Scanner(System.in);
         System.out.print("Please enter your path : ");
-        path = scanner.next();
+        path = scanner.nextLine();
         
         System.out.print("Please enter your initial triplet : ");
-        initialTriplet = scanner.next();
+        initialTriplet = scanner.nextLine();
         
         System.out.println(new MessageFetcher().Message(path,initialTriplet));
     }
